@@ -1,0 +1,111 @@
+/* contact nav */
+@media screen and (max-width: 992px) {
+  .contact-nav {
+    display: none;
+  }
+}
+
+
+/* main nav start */
+@media screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+
+  .nav-link {
+    padding: 1.5rem 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    padding: 0 1rem;
+  }
+
+  .nav_button {
+    display: none;
+  }
+
+  .nav_custom .navbar-brand {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+
+  .nav_search {
+    display: none;
+  }
+}
+
+
+/* header style */
+@media screen and (max-width: 992px) {
+  header .content h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .content h1 {
+    font-size: 50px;
+    letter-spacing: 20px;
+  }
+  header .content h2 {
+    letter-spacing: 7px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .content h1 {
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+  header .content h2 {
+    font-size: 25px;
+    letter-spacing: 4px;
+  }
+}
+
+
+
+/* service style */
+@media screen and (min-width: 768px) {
+  .service .content:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 16px;
+    bottom: 0;
+    top: 1px;
+    width: 25%;
+    background: #cccccc;
+    -webkit-clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+    -moz-clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+    transition: all 0.3s;
+  }
+  .service .content:hover {
+    border-color: #287a2c;
+  }
+  .service .content:hover:before {
+    background: #287a2c;
+  }
+  .service .content:hover .icon {
+    color: #fff;
+  }
+  .service .content .text {
+    text-align: left;
+  }
+}
+
+
+/* testimonial style */
+@media screen and (max-width: 992px) {
+  .testimonial .owl-nav {
+    bottom: 50px;
+  }
+}
+
+
+/* contact style */
+@media screen and (max-width: 992px) {
+  .contact {
+    background: #287a2c;
+  }
+}
