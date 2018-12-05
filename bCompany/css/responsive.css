@@ -1,0 +1,29 @@
+/* contact nav */
+@media screen and (max-width: 992px) {
+  .contact-nav {
+    display: none;
+  }
+}
+
+
+/* main nav */
+@media screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block !important;
+  }
+
+  .nav-link {
+    padding: 1.5rem 0 !important;
+    margin-left: 1.5rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    padding: 0 1rem;
+  }
+
+  .nav_custom .navbar-brand {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+}
